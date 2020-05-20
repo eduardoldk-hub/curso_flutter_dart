@@ -1,0 +1,16 @@
+funcao(p1, p2) {
+    //10 segudos para processar - parametro p1
+    sentenca #01
+    sentenca #02
+    sentenca #03
+
+    // 1 segundo para processar - parametro 2
+    sentenca #4
+    sentenca #5
+}
+
+funcao(3,17); // levará 11 segundos para processar
+funcao(3,39); // levará 11 segundos para processar
+funcao(3,92); // levará 11 segundos para processar
+
+Total: 33s
